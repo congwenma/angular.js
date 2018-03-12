@@ -1,4 +1,7 @@
 angularFiles = {
+  'myTests': [
+    'test/AngularSpec.js'
+  ],
   'angularSrc': [
     'src/Angular.js',
     'src/loader.js',

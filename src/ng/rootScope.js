@@ -374,10 +374,12 @@ function $RootScopeProvider(){
         beginPhase('$digest');
 
         do {
+          // NOTE: digest cycle
           dirty = false;
           current = target;
           do {
             asyncQueue = current.$$asyncQueue;
+            // NOTE: $eval all `$$asyncQueue` private <Array></Array>
             while(asyncQueue.length) {
               try {
                 current.$eval(asyncQueue.shift());
@@ -385,9 +387,13 @@ function $RootScopeProvider(){
                 $exceptionHandler(e);
               }
             }
-            if ((watchers = current.$$watchers)) {
+
+            // NOTE: if any `watchers` got registered from the above?!
               // process our watches
               length = watchers.length;
+            // NOTE: iterate reversely through the watchers, and compare new `value` with `watch.last`, if not equal, soemthing changed, mark as dirty
+            if ((watchers = current.$$watchers)) {
+
               while (length--) {
                 try {
                   watch = watchers[length];
@@ -641,6 +647,7 @@ function $RootScopeProvider(){
         }
         namedListeners.push(listener);
 
+        // NOTE: a function that removes the listener
         return function() {
           namedListeners[indexOf(namedListeners, listener)] = null;
         };

@@ -487,6 +487,10 @@ describe('angular', function() {
   describe('angularInit', function() {
     var bootstrapSpy;
     var element;
+    console.warn("SFDKFJDKFJK")
+    console.warn("SFDKFJDKFJK")
+    console.warn("SFDKFJDKFJK")
+    console.warn("SFDKFJDKFJK")
 
     beforeEach(function() {
       element = {

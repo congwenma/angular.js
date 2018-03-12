@@ -197,7 +197,7 @@ function nextUid() {
 
 /**
  * Set or clear the hashkey for an object.
- * @param obj object 
+ * @param obj object
  * @param h the hashkey (!truthy to delete the hashkey)
  */
 function setHashKey(obj, h) {
@@ -462,7 +462,7 @@ function makeMap(str){
   return obj;
 }
 
-
+// NOTE: if version under 9, ie version!? polyfills how to access nodeName
 if (msie < 9) {
   nodeName_ = function(element) {
     element = element.nodeName ? element : element[0];

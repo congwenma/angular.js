@@ -1,0 +1,32 @@
+17:56:49.105 [system.rpt] [always] CPU: SSE2
+17:56:49.105 [system.rpt] [always] ==== system log start, build date: Jun 25 2007 version bld-medieval2-update2.1-30 (43169) ===
+17:56:49.108 [system.io] [warning] open: data/text/shared.txt.strings.bin is missing
+17:56:49.109 [system.io] [warning] open: data/text/shared.txt is missing
+17:56:49.109 [system.io] [warning] open: data/text/tooltips.txt.strings.bin is missing
+17:56:49.110 [system.io] [warning] open: data/text/tooltips.txt is missing
+17:56:49.110 [system.io] [warning] open: data/text/battle.txt.strings.bin is missing
+17:56:49.110 [system.io] [warning] open: data/text/battle.txt is missing
+17:56:49.111 [system.io] [warning] open: data/text/strat.txt.strings.bin is missing
+17:56:49.112 [system.io] [warning] open: data/text/strat.txt is missing
+17:56:49.112 [system.io] [warning] open: data/text/battle_ed.txt.strings.bin is missing
+17:56:49.113 [system.io] [warning] open: data/text/battle_ed.txt is missing
+17:56:49.113 [system.io] [warning] open: data/text/menu_english.txt.strings.bin is missing
+17:56:49.113 [system.io] [warning] open: data/text/menu_english.txt is missing
+17:56:49.114 [system.io] [warning] open: data/text/expanded.txt.strings.bin is missing
+17:56:49.114 [system.io] [warning] open: data/text/expanded.txt is missing
+17:56:49.114 [system.io] [warning] open: data/text/diplomacy.txt.strings.bin is missing
+17:56:49.114 [system.io] [warning] open: data/text/diplomacy.txt is missing
+17:56:49.114 [system.io] [warning] open: data/text/diplomacy_speech.txt.strings.bin is missing
+17:56:49.114 [system.io] [warning] open: data/text/diplomacy_speech.txt is missing
+17:56:49.115 [system.io] [warning] open: data/text/missions.txt.strings.bin is missing
+17:56:49.115 [system.io] [warning] open: data/text/missions.txt is missing
+17:56:49.115 [system.io] [warning] open: data/text/date_format.txt is missing
+17:56:49.115 [system.io] [warning] open: data/text/shortcut.txt.strings.bin is missing
+17:56:49.116 [system.io] [warning] open: data/shortcuts_lookup.txt is missing
+17:56:49.116 [system.io] [warning] open: data/text/shortcut.txt is missing
+17:56:49.116 [system.io] [warning] open: preferences/player.txt is missing
+17:56:49.116 [system.io] [warning] open: preferences/keys.dat is missing
+17:56:49.116 [system.io] [warning] open: preferences/keys.dat is missing
+17:56:49.117 [system.io] [warning] open: data/text/descr_shortcuts.txt is missing
+17:56:49.118 [system.rpt] [error] 
+
